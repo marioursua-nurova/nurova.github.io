@@ -1569,7 +1569,7 @@ function generateColor() {
         c = {
             r: 255 / 255,
             g: 0 / 255,
-            b: 107 / 255
+            b: 64 / 255
         }
     }
     else if (modeStatus == 'white') {
@@ -1577,7 +1577,7 @@ function generateColor() {
         c = {
             r: 255 / 255,
             g: 0 / 255,
-            b: 107 / 255
+            b: 64 / 255
         }
     }
     c.r *= 0.15;
