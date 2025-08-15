@@ -29,7 +29,7 @@ const canvas = document.querySelector('.splash-canvas');
 const homePageBody = document.querySelector("body");
 const mainWrapper = document.querySelector("#main");
 const modeChangeButton = document.querySelector('.mode-toggle-wrapper');
-let modeStatus = 'white';
+let modeStatus = 'black';
 
 resizeCanvas();
 
