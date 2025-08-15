@@ -49,7 +49,7 @@ let config = {
     COLOR_UPDATE_SPEED: 10,
     PAUSED: false,
     BACK_COLOR: { r: 0, g: 0, b: 10 },
-    TRANSPARENT: false,
+    TRANSPARENT: true,
     BLOOM: true,
     BLOOM_ITERATIONS: 8,
     BLOOM_RESOLUTION: 256,
@@ -1567,9 +1567,9 @@ function generateColor() {
     if (modeStatus == 'black') {
         // c = HSVtoRGB(180, 21.8, 98.8)
         c = {
-            r: 197 / 255,
-            g: 252 / 255,
-            b: 252 / 255
+            r: 255 / 255,
+            g: 0 / 255,
+            b: 107 / 255
         }
     }
     else if (modeStatus == 'white') {
